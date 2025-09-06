@@ -1,29 +1,31 @@
 # Drilling
 POC carried out on February 27, 2025, by Kévin Abdellah Anatole.
 
-# Description of the Implementation Process
+## Description of the Implementation Process
 
 Morning session:
 In the morning, we explored the data and tried to understand the different states of a drilling operation, i.e., illustrating the thresholds and drilling states.
 
 ![photo_seuils](https://github.com/user-attachments/assets/30d097bf-8186-4ba1-8241-7eaa1b21a99f)
 
-Process:
+## Process:
+
 Given that we had a list of business logic rules, we decided to start by implementing them while also creating data visualizations. This allowed us to visually assess progress and receive feedback from the domain expert. The business logic is implemented in Python in a way that makes it easy to modify and adapt, enabling rapid incorporation of the expert’s feedback.
 
 <img width="1229" height="448" alt="417700158-e40d37e1-dc6f-4299-9818-722199a33070" src="https://github.com/user-attachments/assets/48ecd92b-f18d-4842-9182-0d1aaa7c4912" />
 
 
-Result:
+## Result:
+
 We now have a Dash interface presenting the labeled data and allowing visualization, with a textual description of the state associated with each point.
 
-Next steps:
+## Next steps:
 
 - Proper display of the classified data remains to be implemented. We could add various filtering options to identify curves based on different parameters and their characteristics, using different colors or symbols.
 
 - Error identification: A filtering system could be added to detect potentially impossible classifications (e.g., a point being both increasing and decreasing at the same time).
 
-Dataset Description
+## Dataset Description
 
 Correspondence of drilling measurements
 | Code      | Description                               | Unit of Measurement               |
