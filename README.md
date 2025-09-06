@@ -11,7 +11,8 @@ In the morning, we explored the data and tried to understand the different state
 Process:
 Given that we had a list of business logic rules, we decided to start by implementing them while also creating data visualizations. This allowed us to visually assess progress and receive feedback from the domain expert. The business logic is implemented in Python in a way that makes it easy to modify and adapt, enabling rapid incorporation of the expert’s feedback.
 
-<img width="2464" height="1530" alt="image" src="https://github.com/user-attachments/assets/f1233b76-5d8f-4d6e-b917-c3cb5ab79ab1" />
+<img width="1229" height="448" alt="417700158-e40d37e1-dc6f-4299-9818-722199a33070" src="https://github.com/user-attachments/assets/48ecd92b-f18d-4842-9182-0d1aaa7c4912" />
+
 
 Result:
 We now have a Dash interface presenting the labeled data and allowing visualization, with a textual description of the state associated with each point.
